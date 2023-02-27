@@ -749,3 +749,12 @@ MEDIA QUERIES
         gap: 5px;
     }
 }
+
+@media (max-width: 667px) {
+    .card_skills {
+        display: grid;
+        grid-template-columns: repeat(1, 300px);
+        gap: 36px;
+        justify-content: center;
+    }
+}
