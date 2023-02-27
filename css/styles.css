@@ -656,6 +656,10 @@ MEDIA QUERIES
         width: 116.5px;
     }
 
+    .portfolio_title .rectangle {
+        width: 89.5px;
+    }
+
     .card_skills {
         grid-template-columns: repeat(2, 300px);
     }
@@ -765,5 +769,32 @@ MEDIA QUERIES
         padding-right: 20px;
         margin-left: 0;
         width: 100%;
+    }
+}
+
+@media (max-width: 450px) {
+    .portfolio_btn{
+        grid-template-columns: repeat(1, 220px);
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .card_portfolio {
+        grid-template-columns: repeat(1, 320px);
+    }
+
+    .card_port_item img {
+        max-width: 320px;
+    }
+}
+
+@media (max-width: 425px) {
+    .price_cards {
+        grid-template-columns: repeat(1, 320px);
+        justify-content: center;
+    }
+
+    .price_card {
+        max-width: 320px;
     }
 }
