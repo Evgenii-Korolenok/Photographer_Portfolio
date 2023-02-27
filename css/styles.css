@@ -758,3 +758,12 @@ MEDIA QUERIES
         justify-content: center;
     }
 }
+
+@media (max-width: 530px) {
+    .hero-content{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0;
+        width: 100%;
+    }
+}
